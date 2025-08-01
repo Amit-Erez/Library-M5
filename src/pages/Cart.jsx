@@ -64,7 +64,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                             }
                           />
                         </div>
-                        <div className="cart_total">
+                        <div className="cart__total">
                           $
                           {(
                             (book.salePrice || book.originalPrice) *
